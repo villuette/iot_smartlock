@@ -3,7 +3,7 @@
 ## Requirements
 - Mbed Studio **(marked as deprecated)**
 - stm32 RE board
-- sensors connected according to it'ss module code
+- sensors connected according to it's module code
 
 ## Installation:
 
