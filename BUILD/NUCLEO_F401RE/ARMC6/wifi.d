@@ -1,0 +1,2 @@
+BUILD\NUCLEO_F401RE\ARMC6\wifi.o: wifi.cpp \
+  BUILD\NUCLEO_F401RE\ARMC6\mbed_config.h

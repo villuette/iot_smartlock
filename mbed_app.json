@@ -1,0 +1,21 @@
+{
+    "config": {
+        "wifi-ssid": {
+            "help": "WiFi SSID",
+            "value": "\"Pixel_7983\""
+        },
+        "wifi-password": {
+            "help": "WiFi Password",
+            "value": "\"123123123\""
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "target.network-default-interface-type": "WIFI",
+            "platform.stdio-convert-newlines": true,
+            "esp8266.provide-default" : true,
+            "esp8266.tx": "D8",
+            "esp8266.rx": "D2"
+        }
+    }
+}
